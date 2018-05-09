@@ -1,0 +1,16 @@
+Hong Kong Property Map Visualization Using Tableau
+
+Follow these steps
+Open Tableau Desktop
+Click "Connect to data" on the top left corner
+Select HKPropDataset.csv (located in Week 2/HK Property Files)
+Double-click - Longtitude/Latitude
+Drag PropNameENG -> Label in Marks Palette
+Drag SalePrice10K -> Size in Marks Palette
+Click Colour in Marks Palette
+	- Click on Border -> Select a light grey
+	- Click on Colour -> Select a light red
+Click Map 
+	- > Background Map -> Map Services -> Mapbox -> Classic -> Streets + Satellite -> Add Default Public Token
+Select Sum(SalePrice10K) 
+	- > Select Discrete
